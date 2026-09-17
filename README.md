@@ -21,3 +21,40 @@ The website aims to:
 - Provide business contact information.
 - Allow customers to submit enquiries.
 - Provide an easy-to-use navigation system.
+
+
+
+
+
+
+
+
+
+# Mel Wear
+
+## Changelog
+
+### 2026-09-17
+
+#### Added
+- Added shopping cart button
+- Added account/sign-in icon
+- Added checkout function
+- Added product category buttons
+- Added promotional banner
+- Added sliding banner images
+
+#### Changed
+- Updated body background to olive green
+- Improved navigation bar
+- Improved button styling
+- Updated product image sizing
+- Added luxury visual styling
+- Improved website typography
+- Updated light and dark mode styling
+
+#### Fixed
+- Fixed navigation alignment
+- Fixed banner positioning
+- Fixed CSS file connections
+- Fixed image paths
