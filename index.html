@@ -5,11 +5,26 @@
     
 </head>
 <body>
-
-    
-
     <div class="banner">
   WELCOME TO MEL WEAR CLOTHING LIFESTYLE
+</div>
+    <link rel="stylesheet" href="../ROOT/Css/Style.css">
+
+       
+
+            <button class="Harmburger-menu" onclick="toggleMenu()" aria-label="Open Products menu">
+                <i class="fa-solid fa-bars"></i>  
+        </button>
+                <div id="ProductDropdown" class="product-dropdown">
+                    <a href="Assets/products.html">T-shirts</a>
+                    <a href="Assets/products.html">Hoodies</a>
+                    <a href="Assets/products.html">Tracksuits</a>
+                    <a href="Assets/products.html">Caps</a>
+               
+
+                
+
+        <img src="../ROOT/Images/Mel Wear Logo.png" alt="Mel Wear Logo">
 
   <div class="nav-buttons">
         <button class="nav-icon-btn" onclick="window.location.href='cart.html'">
@@ -26,7 +41,11 @@
            <i class="fa-solid fa-user"> </i> <span>Sign In</span><P>Sign In</P>
 
         </button>
-
+        <script>
+            function toggleMenu() {
+                const menu = document.getElementById("productDropdown").classList.toggle("active");
+            }
+        </script>
 
     </div>
 </div>
