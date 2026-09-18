@@ -58,3 +58,5 @@ The website aims to:
 - Fixed banner positioning
 - Fixed CSS file connections
 - Fixed image paths
+
+updated gallery
