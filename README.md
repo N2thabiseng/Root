@@ -60,3 +60,22 @@ The website aims to:
 - Fixed image paths
 
 updated gallery
+Updated website HTML structure
+Improved navigation bar layout
+Styled navigation menu with CSS
+Added responsive navigation styling
+Updated homepage content sections
+Improved product section HTML
+Styled product cards with CSS
+Added product category buttons
+Updated Add to Cart button styling
+Improved account and cart button layout
+Added search bar styling
+Updated website typography
+Improved spacing and page alignment
+Updated website background to olive green
+Styled website content sections
+Updated image banner layout
+Improved image sizing and positioning
+Added responsive CSS for different screen sizes
+Updated footer HTML and styling
