@@ -1,144 +1,205 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Homepage</title>
-    
-</head>
-<body>
-    <div class="banner">
-  WELCOME TO MEL WEAR CLOTHING LIFESTYLE
-</div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mel Wear | Quiet Power. Real Impact.</title>
+
     <link rel="stylesheet" href="../ROOT/Css/Style.css">
 
-       
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
 
-            <button class="Harmburger-menu" onclick="toggleMenu()" aria-label="Open Products menu">
-                <i class="fa-solid fa-bars"></i>  
+<body>
+
+    <!-- Welcome banner -->
+    <div class="banner">
+        WELCOME TO MEL WEAR CLOTHING LIFESTYLE
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+
+        <!-- Brand logo -->
+        <a href="../index.html" class="logo-link">
+            <img src="../ROOT/Images(1)/lOGO.jpg"
+                 alt="Mel Wear Logo">
+        </a>
+
+        <!-- Hamburger menu -->
+        <button class="Harmburger-menu"
+                id="menuToggle"
+                aria-label="Open products menu"
+                aria-expanded="false"
+                aria-controls="ProductDropdown">
+            <i class="fa-solid fa-bars"></i>
         </button>
-                <div id="ProductDropdown" class="product-dropdown">
-                    <a href="Assets/products.html">T-shirts</a>
-                    <a href="Assets/products.html">Hoodies</a>
-                    <a href="Assets/products.html">Tracksuits</a>
-                    <a href="Assets/products.html">Caps</a>
-               
 
-                
-
-        <img src="../ROOT/Images/Mel Wear Logo.png" alt="Mel Wear Logo">
-
-  <div class="nav-buttons">
-        <button class="nav-icon-btn" onclick="window.location.href='cart.html'">
-
-            <i class="fa-solid fa-cart-shopping"></i> <P>Cart</P>
+        <!-- Product dropdown -->
+        <div id="ProductDropdown" class="product-dropdown">
+            <a href="../ROOT/Assets/products.html">T-shirts</a>
+            <a href="../ROOT/Assets/products.html">Hoodies</a>
+            <a href="../ROOT/Assets/products.html">Tracksuits</a>
+            <a href="../ROOT/Assets/products.html">Caps</a>
+        </div>
 
         
-        </button>
+        <!-- Account and cart buttons -->
+        <div class="nav-buttons">
 
-        <button class="nav-icon-btn" onclick="window.location.href='account.html'">
-           <i class="fa-solid fa-bag-shopping"></i> <P>Account</P>
-           
-           <a href="signin.html" class="nav-icon-btn"></a>
-           <i class="fa-solid fa-user"> </i> <span>Sign In</span><P>Sign In</P>
+            <a href="../ROOT/Assets/cart.html" class="nav-icon-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Cart</span>
+            </a>
 
-        </button>
-        <script>
-            function toggleMenu() {
-                const menu = document.getElementById("productDropdown").classList.toggle("active");
-            }
-        </script>
+            <a href="../ROOT/Assets/account.html" class="nav-icon-btn">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span>Account</span>
+            </a>
 
-    </div>
-</div>
+            <a href="../ROOT/Assets/signin.html" class="nav-icon-btn">
+                <i class="fa-solid fa-user"></i>
+                <span>Sign In</span>
+                
 
-<div class="hero-image">
-    <img src="..//ROOT/Images/Ntokozo and Tumelo sitting down.jpg" alt="Mel Wear">
-</div>
-<link rel="stylesheet" href="../ROOT/Css/Style.css">
+        </div>
+    </header>
 
-    <nav>
+   
+    <!-- Main navigation -->
+    <nav class="main-navigation" aria-label="Main navigation">
         <ul>
-        <li><a href="../index.html">HOME</a></li>
-        <li><a href="../ROOT/Assets/about us.html">ABOUT</a></li>
-        <li><a href="../ROOT/Assets/products.html">PRODUCTS</a></li>
-        <li><a href="../ROOT/Assets/gallery.html">GALLERY</a></li>
-        <li><a href="../ROOT/Assets/enquiry.html">ENQUIRY</a></li>
-        <li><a href="../ROOT/Assets/contact.html">CONTACT</a></li>
-    </ul>
-</nav>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../ROOT/Assets/about us.html">ABOUT</a></li>
+            <li><a href="../ROOT/Assets/products.html">PRODUCTS</a></li>
+            <li><a href="../ROOT/Assets/gallery.html">GALLERY</a></li>
+            <li><a href="../ROOT/Assets/enquiry.html">ENQUIRY</a></li>
+            <li><a href="../ROOT/Assets/contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
 
-    <h1>Site Map</h1>
+    <section>
+    <h2>Explore Mel Wear</h2>
 
-        <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="about us.html">About Us</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="enquiry.html">Enquiry</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-    </ul>
+    <p>
+        Discover our
+        <a href="../ROOT/Assets/products.html">
+            premium clothing collection
+        </a>.
+    </p>
 
-    </div>
-    
-<section class="luxury-section">
-    <h2>Mel Wear</h2>
-    <p>Quiet Power. Real Impact.</p>
+    <p>
+        View our latest designs in the
+        <a href="../ROOT/Assets/gallery.html">
+            Mel Wear gallery
+        </a>.
+    </p>
+
+    <p>
+        Have a question? Visit our
+        <a href="../ROOT/Assets/contact.html">
+            Contact page
+        </a>.
+    </p>
 </section>
+     <!-- Hero image -->
+    <section class="hero-image">
+        <img src="../ROOT/Images/Ntokozo and Tumelo sitting down.jpg"
+             alt="Models wearing Mel Wear clothing">
+    </section>
 
-    <h2>Introduction</h2>
-    <p>
-        Mel Wear is a South African clothing brand that focuses modern fashionable, trendy, stylish,<br>
-       streetwear luxury clothing. To fashion-conscious customers. The brand offers T-shirts, Sweaters, hoodies,<br>
-         caps and also summer dress codes and also winter clothes like winter Tracksuits.</p>
-         <br>
-    <p>
-        Welcome to Mel Wear, a South African clothing brand
-        offering fashionable and quality clothing.
-    </p>
+    <main>
 
-    <h2>Our Products</h2>
+        <!-- Brand introduction -->
+        <section class="brand-intro fade-in">
+            <h1>MEL WEAR</h1>
+            <p class="tagline">Quiet Power. Real Impact.</p>
 
-    <p>
-        Explore our collection of T-shirts, hoodies, tracksuits
-        and other fashion products.
-    </p>
-    <h3>Follow Mel Wear</h3>
-      
-    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <h2>Introduction</h2>
 
-    <br>
+            <p>
+                Mel Wear is a South African clothing brand focused on
+                modern fashion, premium streetwear and luxury style.
+                Our collection includes T-shirts, hoodies, tracksuits,
+                caps and seasonal clothing.
+            </p>
 
-    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            <p>
+                Welcome to Mel Wear, where style meets confidence
+                and every design makes a statement.
+            </p>
+        </section>
 
+        <!-- Products introduction -->
+        <section class="products-intro">
+            <h2>Our Products</h2>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    
-    <div class="social-icons">
-    <a href="https://www.facebook.com/share/18zAdmpq61/?mibextid=wwXIfr" target="_blank">
-        <i class="fa-brands fa-facebook-f"></i>
-    </a>
+            <p>
+                Explore our collection of premium T-shirts, hoodies,
+                tracksuits and accessories.
+            </p>
 
-    <a href="https://www.instagram.com/melwear_clothing?stkn=aWI3c2UzaG5kNGtv" target="_blank">
-        <i class="fa-brands fa-instagram"></i>
-    </a>
-</div>
-<hr>
- <footer class="footer">
-    <h3>Browse our Site</h3>
+            <a href="../ROOT/Assets/products.html" class="shop-button">
+                Explore the Collection
+            </a>
+        </section>
 
-    <div class="footer-links">
-        <a href="index.html">Home</a>
-        <a href="../ROOT/Assets/about us.html">About</a>
-        <a href="../ROOT/Assets/products.html">Products</a>
-        <a href="../ROOT/Assets/contact.html">Contact</a>
-        <a href="../ROOT/Assets/gallery.html">Gallery</a>
-        <a href="../ROOT/Assets/enquiry.html">Enquiry</a>
-    </div>
+        <!-- Interactive sitemap -->
+        <section class="site-map">
+            <h2>Browse Our Website</h2>
 
-    <p>&copy; 2026 Mel Wear. All Rights Reserved.</p>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../ROOT/Assets/about us.html">About Us</a></li>
+                <li><a href="../ROOT/Assets/products.html">Products</a></li>
+                <li><a href="../ROOT/Assets/gallery.html">Gallery</a></li>
+                <li><a href="../ROOT/Assets/enquiry.html">Enquiry</a></li>
+                <li><a href="../ROOT/Assets/contact.html">Contact Us</a></li>
+            </ul>
+        </section>
 
+        <!-- Social media -->
+        <section class="social-section">
+            <h2>Follow Mel Wear</h2>
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/share/18zAdmpq61/?mibextid=wwXIfr"
+                   target="_blank" rel="noopener noreferrer"
+                   aria-label="Follow Mel Wear on Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="https://www.instagram.com/melwear_clothing?stkn=aWI3c2UzaG5kNGtv"
+                   target="_blank" rel="noopener noreferrer"
+                   aria-label="Follow Mel Wear on Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h3>Browse Our Site</h3>
+
+        <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="../ROOT/Assets/about us.html">About</a>
+            <a href="../ROOT/Assets/products.html">Products</a>
+            <a href="../ROOT/Assets/contact.html">Contact</a>
+            <a href="../ROOT/Assets/gallery.html">Gallery</a>
+            <a href="../ROOT/Assets/enquiry.html">Enquiry</a>
+        </div>
+
+        <p>&copy; 2026 Mel Wear. All Rights Reserved.</p>
     </footer>
 
-
+    <script src="../ROOT/Javascript/Script.js"></script>
 
 </body>
 </html>
