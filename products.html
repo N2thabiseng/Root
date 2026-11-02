@@ -10,8 +10,7 @@
 <link rel="stylesheet" href="../Css/Style.css">
 
 
-<div class="hero-image">
-    <img src="../Images/Precious and.jpg" alt="Mel Wear">
+
 
 
  <nav>
@@ -24,8 +23,30 @@
         <li><a href="contact.html">CONTACT</a></li>
     </ul>
 </nav>
+<section class="luxury-section">
+    <h2>Discover the Mel Wear Collection</h2>
 
+    <input
+        type="search"
+        id="productSearch"
+        placeholder="Search T-shirts, hoodies, tracksuits..."
+        aria-label="Search products"
+    >
 
+    <select id="productSort" aria-label="Sort products">
+        <option value="default">Featured products</option>
+        <option value="price-low">Price: Low to High</option>
+        <option value="price-high">Price: High to Low</option>
+        <option value="name">Name: A to Z</option>
+    </select>
+
+    <p id="productCount" aria-live="polite"></p>
+
+    <div id="productList" class="product-grid"></div>
+</section>
+
+<div class="hero-image">
+    <img src="../Images/Precious and.jpg" alt="Mel Wear">
 
     <p>
         Explore our collection of stylish and quality clothing from Mel Wear.
@@ -134,8 +155,51 @@
     Customers can enquire about available delivery options or
     arrange collection of their orders.
 </p>
+  <section class="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <button class="accordion">
+        What makes Mel Wear special?
+    </button>
+    <div class="panel">
+        <p>Mel Wear represents luxury, confidence
+        and premium clothing with real impact.</p>
+    </div>
+
+    <button class="accordion">
+        How can I order?
+    </button>
+    <div class="panel">
+        <p>Contact us through our website or
+        social media to place an order.</p>
+    </div>
+</section>
 
 
+<h2>Our Collection</h2>
+
+<input
+    type="text"
+    id="productSearch"
+    placeholder="Search our collection..."
+>
+
+<div class="product-list">
+    <div class="product-item">
+        <h3>Premium T-Shirt</h3>
+        <p>R450</p>
+    </div>
+
+    <div class="product-item">
+        <h3>Luxury Hoodie</h3>
+        <p>R550</p>
+    </div>
+
+    <div class="product-item">
+        <h3>Bucket Hat</h3>
+        <p>R250</p>
+    </div>
+</div>
 <hr>
   
  <footer class="footer">
@@ -149,6 +213,15 @@
         <a href="../Assets/gallery.html">Gallery</a>
         <a href="../Assets/enquiry.html">Enquiry</a>
 
+       <script>
+    alert("MEL WEAR JAVASCRIPT IS CONNECTED!");
+</script>
+ <script src="../Javascript/Script.js"></script>
+
+</body>
+</html>
+
+        
     </div>
 
     <p>&copy; 2026 Mel Wear. All Rights Reserved.</p>
