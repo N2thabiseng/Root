@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Checkout | Mel Wear</title>
+    <link rel="stylesheet" href="../Css/Style.css">
+</head>
+<body>
+
+<main class="checkout-container">
+
+    <h1>Mel Wear Checkout</h1>
+    <p>Complete your details to place your order.</p>
+
+    <form id="checkoutForm">
+
+        <label for="customerName">Full Name</label>
+        <input type="text" id="customerName" required>
+
+        <label for="customerEmail">Email Address</label>
+        <input type="email" id="customerEmail" required>
+
+        <label for="customerPhone">Phone Number</label>
+        <input type="tel" id="customerPhone" required>
+
+        <label for="deliveryAddress">Delivery Address</label>
+        <textarea id="deliveryAddress" required></textarea>
+
+        <div id="checkoutSummary"></div>
+
+        <button type="submit" class="add-to-cart">
+            CONTINUE TO SECURE PAYMENT
+        </button>
+
+    </form>
+
+</main>
+
+<script src="../Javascript/Script.js"></script>
+
+</body>
+</html>
